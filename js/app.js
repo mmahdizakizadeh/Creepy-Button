@@ -65,3 +65,27 @@ eyes.querySelectorAll(".eye").forEach((eye) => {
     }
   );
 });
+
+
+               var programmingGrade = +prompt("enter your programming grade:");
+var mathgGrade = +prompt("enter your math grade:");
+var englishGrade = +prompt("enter your english  grade:");
+
+
+// محاسبه معدل با احتساب ضرایب
+var ave = ((programmingGrade * 3) + (mathgGrade * 2) + (englishGrade + 1)) / 6;
+
+
+if(ave > 17){
+    console.log("معدل برتر");
+}else{
+    console.log("معدل معمولی");
+    
+}
+
+
+
+console.log(programmingGrade);
+console.log(mathgGrade);
+console.log(englishGrade);
+console.log(ave);
