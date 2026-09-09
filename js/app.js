@@ -67,6 +67,8 @@ eyes.querySelectorAll(".eye").forEach((eye) => {
 });
 
 
+                 
+
                var programmingGrade = +prompt("enter your programming grade:");
 var mathgGrade = +prompt("enter your math grade:");
 var englishGrade = +prompt("enter your english  grade:");
@@ -89,3 +91,18 @@ console.log(programmingGrade);
 console.log(mathgGrade);
 console.log(englishGrade);
 console.log(ave);
+
+
+
+var age = +prompt("سن خود را بر حسب سال میلادی وارد کنید");
+
+var nowAge = 2026 - age,
+  monthAge = nowAge * 12;
+
+if (nowAge >= 18) {
+  alert("شما با موفقیت وارد شدید");
+  document.write("سن شما" + nowAge + "سال و" + monthAge + "ماه است.");
+} else {
+  alert("سن شما زیر 18 سال است");
+  document.write("سن شما" + nowAge + "سال و" + monthAge + "ماه است.");
+}
