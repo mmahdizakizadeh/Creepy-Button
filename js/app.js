@@ -74,8 +74,8 @@ var nowAge = age,
 
 if (nowAge >= 18) {
   alert("شما با موفقیت وارد شدید");
-  alert("سن شما" + nowAge + "سال و" + monthAge + "ماه است.");
+  alert("سن شما " + nowAge + " سال و تبدیل به ماه: " + monthAge + " است.");
 } else {
   alert("سن شما زیر 18 سال است");
-  alert("سن شما" + nowAge + "سال و" + monthAge + "ماه است.");
+  alert("سن شما " + nowAge + " سال و تبدیل به ماه: " + monthAge + " است.");
 }
