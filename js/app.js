@@ -67,15 +67,15 @@ eyes.querySelectorAll(".eye").forEach((eye) => {
 });
 
 
-var age = +prompt("سن خود را بر حسب سال میلادی وارد کنید");
+var age = +prompt("سن خود را وارد کیند");
 
-var nowAge = 2026 - age,
+var nowAge = age,
   monthAge = nowAge * 12;
 
 if (nowAge >= 18) {
   alert("شما با موفقیت وارد شدید");
-  document.write("سن شما" + nowAge + "سال و" + monthAge + "ماه است.");
+  alert("سن شما" + nowAge + "سال و" + monthAge + "ماه است.");
 } else {
   alert("سن شما زیر 18 سال است");
-  document.write("سن شما" + nowAge + "سال و" + monthAge + "ماه است.");
+  alert("سن شما" + nowAge + "سال و" + monthAge + "ماه است.");
 }
